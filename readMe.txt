@@ -1,1 +1,1 @@
-initial commit
+This is the etch-a-sketch javascript project from the odin project website.
