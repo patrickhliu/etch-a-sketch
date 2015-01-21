@@ -1,51 +1,51 @@
 body {
-	background-color: #4C5869;
+    background-color: #4C5869;
 }
 
 header {
-	width: 300px;
-	margin: 50px auto;
-	text-align: center;
-	background-color: #79EDDE;
-	font-family: arial;
-	border-radius: 10px;
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #79EDDE;
+    font-family: arial;
+    border-radius: 10px;
 }
 
 header h1 {
-	padding: 10px;
+    padding: 10px;
 }
 
 button {
-	width: 120px;
-	height: 30px;
-	margin: 10px;
-	font-family: arial;
-	font-size: 18px;
+    width: 120px;
+    height: 30px;
+    margin: 10px;
+    font-family: arial;
+    font-size: 18px;
 }
 
 section {
-	height: 1120px;
-	width: 1120px;
-	background-color: red;
-	margin: 0 auto;
-	border-radius: 80px;
-	padding: 0;
+    height: 1120px;
+    width: 1120px;
+    background-color: red;
+    margin: 0 auto;
+    border-radius: 80px;
+    padding: 0;
 }
 
 .container {
-	height: 960px;
-	width: 960px;
-	margin: 0px auto;
-	padding-top: 80px;
+    height: 960px;
+    width: 960px;
+    margin: 0px auto;
+    padding-top: 80px;
 }
 
 .square-div {
-	outline: 1px dotted blue;
-	float: left;
-	background-color: #C4C2C3;
+    outline: 1px dotted blue;
+    float: left;
+    background-color: #C4C2C3;
 }
 
 .square-div:hover {
-	outline: 2px dotted red;
+    outline: 2px dotted red;
 }
 
