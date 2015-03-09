@@ -5,3 +5,5 @@ Project Details:
 Create a etch-a-sketch game in the web browser.
 
 Languages: HTML / CSS / vanilla javascript
+
+Github Page: http://pliu82.github.io/etch-a-sketch
