@@ -11,9 +11,10 @@ Hosted Link:
     http://pliu82.github.io/etch-a-sketch
 
 Instructions:
-    Game starts with a 40x40 grid by default.  Use your mouse to hover over and draw stuff.
-    Press draw grid & enter an integer value to re-create the grid with a different 
-    number of squares.  If you press cancel, the 40x40 default grid gets drawn.
+    Game starts with a 40x40 grid by default.  Use your mouse to 
+    hover over and draw.  Press draw grid & enter an integer value 
+    to re-create the grid with a different number of squares.  
+    If you press cancel, the 40x40 default grid gets drawn.
     Press clear grid to erase all drawings.
 
 Languages: 
