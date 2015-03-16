@@ -44,8 +44,3 @@ section {
     float: left;
     background-color: #C4C2C3;
 }
-
-.square-div:hover {
-    outline: 2px dotted red;
-}
-
