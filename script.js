@@ -57,20 +57,26 @@ window.onload = function () {
     startGame(numberOfBoxes);
 }
 
-// event handler function will begin the game when user clicks on start button
-start.addEventListener("click", function() {    
-    // Ask the user for the # of boxes to display & draw them
-    numberOfBoxes = parseInt( prompt("How many boxes would you like?  (Enter a single integer)") );
+function userBoxes () {
+     // Ask the user for the # of boxes to display & draw them
+    numberOfBoxes = parseInt( prompt("How many boxes ?  (Enter a single integer <= 70)") );
 
     if ( isNaN(numberOfBoxes)) {
         alert("Not sure? We'll use a 40x40 grid...");
         numberOfBoxes = 40;
         startGame(numberOfBoxes);
     }
+    else if (numberOfBoxes > 70 ) {
+        alert("number must be <= 70");
+        userBoxes();
+    }
     else {
         startGame(numberOfBoxes);
     }
-})
+}
+
+// event handler function will begin the game when user clicks on draw button
+start.addEventListener("click", userBoxes );
 
 // Event listener for clear will reset the background color of all squares in the grid
 clear.addEventListener("click", function () {
